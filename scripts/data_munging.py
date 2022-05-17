@@ -3,10 +3,12 @@ from sklearn.preprocessing import MinMaxScaler, StandardScaler
 
 
 class dataframeMunging:
+    ###############################################################################
+    # dataframe munging and manipulation script
+    ################################################################################
     def __init__(self, df: pd.DataFrame):
         """
             Returns a data munging Object with the passed DataFrame Data set as its own DataFrame
-            Parameters
         """
         self.df = df
 
@@ -22,7 +24,6 @@ class dataframeMunging:
     def find_normalized_scale_column(self, column: str) -> pd.DataFrame:
         """
             Returns the objects DataFrames column scaled using MinMaxScaler
-            Parameters
         """
         try:
             scale_column_df = pd.DataFrame(self.df[column])
@@ -41,7 +42,6 @@ class dataframeMunging:
     def find_standardize_column(self, column: str) -> pd.DataFrame:
         """
             Returns the objects DataFrames column normalized using Normalizer
-            Parameters
         """
         try:
             std_column_df = pd.DataFrame(self.df[column])

@@ -13,8 +13,8 @@ python:
 # safelist
 branches:
   only:
-    # - main
-    # - unit_tests
+    - main
+    - unit_tests
 
 # Command to install dependencies, e.g. pip install -r requirements.txt --use-mirrors
 install:

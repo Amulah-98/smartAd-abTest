@@ -24,7 +24,7 @@ class dataframeInfo:
         print(f"Current DataFrame Memory Usage of columns is :")
         return self.df.memory_usage()
 
-    def get_total_memory_usage(self):
+    def find_total_memory_usage(self):
         '''
             Returns the total memory usage of the passed Dataframe
         '''
@@ -41,19 +41,19 @@ class dataframeInfo:
         except:
             print("Failed to get aggregates")
 
-    def get_dataframe_columns_unique_value_count(self):
+    def find_dataframe_columns_unique_value_count(self):
         '''
             Returns the unique value count of the passed Dataframe
         '''
         return pd.DataFrame(self.df.apply(lambda x: len(x.value_counts(dropna=False)), axis=0), columns=['Unique Value Count']).sort_values(by='Unique Value Count', ascending=True)
 
-    def get_duplicates(self):
+    def find_duplicates(self):
         '''
             Returns the duplicates of the passed Dataframe
         '''
         return self.df[self.df.duplicated()]
 
-    def get_column_based_missing_percentage(self):
+    def find_column_based_missing_percentage(self):
         '''
             Returns the missing percentage of the passed Dataframe
         '''
@@ -69,7 +69,7 @@ class dataframeInfo:
         missing_df['missing_percentage'] = missing_percentage
         return missing_df
 
-    def get_columns_missing_percentage_greater_than(self, num: float):
+    def find_columns_missing_percentage_greater_than(self, num: float):
         '''
             Returns the missing percentage of the passed Dataframe
         '''

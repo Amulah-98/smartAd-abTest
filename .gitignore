@@ -160,5 +160,6 @@ cython_debug/
 #.idea/
 
 Week-1/
+week2/
 models/readme.txt
 .~lock.Field Descriptions.xlsx#

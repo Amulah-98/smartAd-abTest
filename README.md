@@ -12,7 +12,7 @@ We will cover:
 
 ## Data & Background
 
-Dan be the data from here. 
+Dan be the data from here.
 Two types of user were using for the experiment, control & expose
 
 Control: users who have been shown a dummy ad

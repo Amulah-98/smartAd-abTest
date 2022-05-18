@@ -46,6 +46,9 @@ class TestCases(unittest.TestCase):
         data_preProcessing = data_preProcess(df)
         data_preProcessing.drop_duplicates()
         self.assertEqual(data_preProcessing.df.shape[0], df.shape[0])
+        
+if __name__ == '__main__':
+unittest.main()
 
 
 

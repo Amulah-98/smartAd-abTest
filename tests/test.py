@@ -16,6 +16,9 @@ df = pd.DataFrame({'numbers': [2, 4, 6, 7, 9], 'letters': ['a', 'b', 'c', 'd', '
 
 class TestCases(unittest.TestCase):
 
+   def test_class_creation(self):
+        data_preProcessing = dataframeInfo(df)
+        self.assertEqual(df.info(), dataframeInfo.df.info())
 
 
 

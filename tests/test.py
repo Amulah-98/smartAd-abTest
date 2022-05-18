@@ -31,6 +31,10 @@ class TestCases(unittest.TestCase):
         self.assertEqual(
             dataframeInfo.df.info(), df.info())
    
+   def test_colums_WithMissingValue(self):
+        data_preProcessing = data_preProcess(df)
+        data_preProcessing.colums_WithMissingValue()
+        self.assertTrue(data_preProcess.df.isna().sum().sum() != 0)
 
 
 

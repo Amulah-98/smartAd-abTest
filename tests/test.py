@@ -20,7 +20,10 @@ class TestCases(unittest.TestCase):
         data_preProcessing = dataframeInfo(df)
         self.assertEqual(df.info(), dataframeInfo.df.info())
 
-
+   def test_remove_duplicates(self):
+        data_preProcessing = data_preProcess(df)
+        data_preProcessing.drop_duplicates()
+        self.assertEqual(data_preProcess.df.shape[0], df.shape[0])
 
 
 

@@ -41,6 +41,11 @@ class TestCases(unittest.TestCase):
         self.assertEqual(
             data_preProcessing.df.columns.any(), df.columns.any())
         self.assertTrue(data_preProcess.df.isna().sum().sum() != 0)
+        
+    def test_remove_duplicates(self):
+        data_preProcessing = data_preProcess(df)
+        data_preProcessing.drop_duplicates()
+        self.assertEqual(data_preProcessing.df.shape[0], df.shape[0])
 
 
 

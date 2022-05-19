@@ -20,8 +20,14 @@ Control: users who have been shown a dummy ad
 Exposed: users who have been shown a creative (ad) that was designed by SmartAd for the client.
 
 ![model](data/pic.jpg)
+
+## Conclusion
+Accorfing to the classical A/B Test the ads that the advertising company runs did not result in a significant lift in brand awareness.
+
 ## Install
 
 git clone https://github.com/Abel-Blue/smartAd-abTest
 cd smartAd-abTest
 pip install -r requirements.txt
+
+## Contributirs

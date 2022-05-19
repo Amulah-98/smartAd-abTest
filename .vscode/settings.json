@@ -1,3 +1,6 @@
 {
-  "python.analysis.extraPaths": ["./scripts"]
+  "python.analysis.extraPaths": [
+    "./scripts"
+  ],
+  "jupyter.jupyterServerType": "remote"
 }

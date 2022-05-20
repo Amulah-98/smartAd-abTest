@@ -50,7 +50,7 @@ setup(
                                     'tests', 'notebooks', 'models']),
     test_suite='tests',
     tests_require=test_requirements,
-    url='https://github.com/Abel-Blue/telecom-user-analytics',
+    url='https://github.com/Abel-Blue/smartAd-abTest',
     version='1.0.0',
     zip_safe=False,
 )

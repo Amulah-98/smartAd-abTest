@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Mon May 16 14:02:24 2022
 
-@author: kiiru
-"""
 import sys
 sys.path.insert(0, './AB_Testing')
 

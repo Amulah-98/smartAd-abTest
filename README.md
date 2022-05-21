@@ -8,15 +8,38 @@ The main objective of this project is to evaluate if the ads that smartAd compan
 We will cover:
 
     Setting up  classical & sequencial A/B tesing framework.
-    Extracting statistically valid insights in relation to the business objective
+    Extracting statistically valid insights in relation to the business objective.
+    Draw conclusion based on the satistical insights.
 
 ## Data & Background
 
-Dan be the data from here.
-Two types of user were using for the experiment, control & expose
+Data set can be found at ![data](data/AdSmartABdata.csv).
 
-Control: users who have been shown a dummy ad
+- The BIO data for this project is a “Yes” and “No” response, of online users on the  question.
+    Q: Do you know the brand Lux?
 
-Exposed: users who have been shown a creative (ad) that was designed by SmartAd for the client.
+        O Yes
+        O No
+
+- Two types of user were using for the experiment, control & expose
+
+    Control: users who have been shown a dummy ad
+
+    Exposed: users who have been shown a creative (ad) that was designed by SmartAd for the client.
 
 ![model](data/pic.jpg)
+
+## Conclusion
+Accorfing to the classical A/B Test the ads that the advertising company runs did not result in a significant lift in brand awareness.
+
+## Install
+
+git clone https://github.com/Abel-Blue/smartAd-abTest
+cd smartAd-abTest
+pip install -r requirements.txt
+
+## Contributirs
+
+![Contributors list](https://contrib.rocks/image?repo=nardoshood/smartAd-abTest)
+
+Made with [contrib.rocks](https://contrib.rocks)

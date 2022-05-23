@@ -1,4 +1,4 @@
-Articles: [Medium Article](https://medium.com/@Abel-Blue/a-b-test-using-machine-learning-a6dfbbb2d016)
+<!-- Articles: [Medium Article](https://medium.com/@Abel-Blue/a-b-test-using-machine-learning-a6dfbbb2d016) -->
 
 ---
 # SmartAd Campaign - A/B Testing

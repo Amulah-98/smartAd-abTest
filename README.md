@@ -1,6 +1,6 @@
 # SmartAd Campaign - A/B Testing
 
-![ab-test](https://gotvantage.com/wp-content/uploads/2017/06/ab-testing.png)
+![ab-test](https://blog.ida.cl/wp-content/uploads/sites/5/2014/07/ab-testing.jpg)
 
 ---
 The main objective of this project is to evaluate if the ads that smartAd company runs resulted in a significant lift in brand awareness. 
@@ -12,8 +12,6 @@ We will cover:
     Draw conclusion based on the satistical insights.
 
 ## Data & Background
-
-Data set can be found at ![data](data/AdSmartABdata.csv).
 
 - The BIO data for this project is a “Yes” and “No” response, of online users on the  question.
     Q: Do you know the brand Lux?
@@ -27,10 +25,22 @@ Data set can be found at ![data](data/AdSmartABdata.csv).
 
     Exposed: users who have been shown a creative (ad) that was designed by SmartAd for the client.
 
+Control group engagment analysis
+![model](images/control%20engagment.png)
+Expose group engagment analysis
+![model](images/exposed%20engagment.png)
+P and t value for the groups
+![model](images/p%20value.png)
+sequential analysis
+![model](images/sequ.png)
+ml workflow
 ![model](data/pic.jpg)
+
 
 ## Conclusion
 Accorfing to the classical A/B Test the ads that the advertising company runs did not result in a significant lift in brand awareness.
+
+
 
 ## Install
 

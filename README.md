@@ -34,11 +34,6 @@ Expose group engagment analysis
 ![model](images/exposed%20engagment.png)
 P and t value for the groups
 ![model](images/p%20value.png)
-### 
-sequential analysis
-![model](images/sequ.png)
-ml workflow
-![model](data/pic.jpg)
 
 ## Conclusion
 
@@ -54,40 +49,43 @@ Using k-fold cross validation we were able to train
 three different models and determine their
 accuracy in predicting our data.
 
-MEAN PERFORMANCE OF THE MODELS
+### MEAN PERFORMANCE OF THE MODELS
 
-### Accuracy Scores
+accuracy score
+![model](images/as.png)
+
+#### Accuracy Scores
 
 * Desicion Tree: 0.464
 * Logistic Regression: 0.536
 * XGBoost: 0.536
 * Random Forest: 0.528
 #### Best Models
+
 * 1 - XGBoost
 * 2 - Logistic Regression
 * 3 - Random Forest
 
+# Classical A/B test vs Machine learning
 
+With classical A/B testing, we determined if there was a significant lift in brand awareness which is instrumental to smartAd in making the next move.
 
+With Machine Learning, we discover that the other features like the hour of the day, and the dates, determine the conversion in brand awareness.
+
+**There is a greater potential to have a significant lift in brand awareness.**
 
 
 # Setup
-## Docker
 
-You can run the dashboard using docker:
-
-```bash
-docker pull abelblue/ad_image:1.0
-docker run abelblue/ad_image:1.0
-```
-
-## Installation for linux
+## Installation
 
 ```bash
 git clone https://github.com/Abel-Blue/smartAd-abTest
 cd smartAd-abTest
 sudo python3 setup.py install
 ```
+
+---
 
 ## Contributirs
 

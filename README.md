@@ -62,7 +62,7 @@ docker run abelblue/ad_image:1.0
 
 ```bash
 git clone https://github.com/Abel-Blue/smartAd-abTest
-cd telecom-user-analytics
+cd smartAd-abTest
 sudo python3 setup.py install
 ```
 

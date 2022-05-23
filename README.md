@@ -42,6 +42,9 @@ P and t value for the groups
 
 ## A/B TESTING WITH MACHINE LEARNING
 
+mlops workflow
+![model](images/pic.jpg)
+
 With A/B testing we compare between two, but with machine learning we can incorporate
 the complexity and dynamic nature of data and draw insights.
 

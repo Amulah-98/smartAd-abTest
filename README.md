@@ -1,3 +1,6 @@
+Articles: [Medium Article](https://medium.com/@Abel-Blue/a-b-test-using-machine-learning-a6dfbbb2d016)
+
+---
 # SmartAd Campaign - A/B Testing
 
 ![ab-test](https://blog.ida.cl/wp-content/uploads/sites/5/2014/07/ab-testing.jpg)
@@ -31,6 +34,7 @@ Expose group engagment analysis
 ![model](images/exposed%20engagment.png)
 P and t value for the groups
 ![model](images/p%20value.png)
+### 
 sequential analysis
 ![model](images/sequ.png)
 ml workflow
@@ -42,11 +46,22 @@ Accorfing to the classical A/B Test the ads that the advertising company runs di
 
 
 
-## Install
+# Setup
+## Docker
 
+You can run the dashboard using docker:
+
+```bash
+docker pull abelblue/ad_image:1.0
+docker run abelblue/ad_image:1.0
+```
+
+## Installation for linux
+
+```bash
 git clone https://github.com/Abel-Blue/smartAd-abTest
-cd smartAd-abTest
-pip install -r requirements.txt
+cd telecom-user-analytics
+sudo python3 setup.py install
 
 ## Contributirs
 

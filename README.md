@@ -1,6 +1,9 @@
+Articles: [Medium Article](https://medium.com/@Abel-Blue/a-b-test-using-machine-learning-a6dfbbb2d016)
+
+---
 # SmartAd Campaign - A/B Testing
 
-![ab-test](https://gotvantage.com/wp-content/uploads/2017/06/ab-testing.png)
+![ab-test](https://blog.ida.cl/wp-content/uploads/sites/5/2014/07/ab-testing.jpg)
 
 ---
 The main objective of this project is to evaluate if the ads that smartAd company runs resulted in a significant lift in brand awareness. 
@@ -12,8 +15,6 @@ We will cover:
     Draw conclusion based on the satistical insights.
 
 ## Data & Background
-
-Data set can be found at ![data](data/AdSmartABdata.csv).
 
 - The BIO data for this project is a “Yes” and “No” response, of online users on the  question.
     Q: Do you know the brand Lux?
@@ -27,16 +28,66 @@ Data set can be found at ![data](data/AdSmartABdata.csv).
 
     Exposed: users who have been shown a creative (ad) that was designed by SmartAd for the client.
 
+Control group engagment analysis
+![model](images/control%20engagment.png)
+Expose group engagment analysis
+![model](images/exposed%20engagment.png)
+P and t value for the groups
+![model](images/p%20value.png)
+### 
+sequential analysis
+![model](images/sequ.png)
+ml workflow
 ![model](data/pic.jpg)
 
 ## Conclusion
-Accorfing to the classical A/B Test the ads that the advertising company runs did not result in a significant lift in brand awareness.
 
-## Install
+* Since the p-value is 0.5185 > alpha(0.05), We fail to reject the null hypothesis H0.
+* So we came to the conclusion that there is no statistically significant difference between the two campaigns.
 
+## A/B TESTING WITH MACHINE LEARNING
+
+With A/B testing we compare between two, but with machine learning we can incorporate
+the complexity and dynamic nature of data and draw insights.
+
+Using k-fold cross validation we were able to train
+three different models and determine their
+accuracy in predicting our data.
+
+MEAN PERFORMANCE OF THE MODELS
+
+### Accuracy Scores
+
+* Desicion Tree: 0.464
+* Logistic Regression: 0.536
+* XGBoost: 0.536
+* Random Forest: 0.528
+#### Best Models
+* 1 - XGBoost
+* 2 - Logistic Regression
+* 3 - Random Forest
+
+
+
+
+
+# Setup
+## Docker
+
+You can run the dashboard using docker:
+
+```bash
+docker pull abelblue/ad_image:1.0
+docker run abelblue/ad_image:1.0
+```
+
+## Installation for linux
+
+```bash
 git clone https://github.com/Abel-Blue/smartAd-abTest
 cd smartAd-abTest
-pip install -r requirements.txt
+sudo python3 setup.py install
+```
 
 ## Contributirs
 

@@ -40,11 +40,34 @@ sequential analysis
 ml workflow
 ![model](data/pic.jpg)
 
-
 ## Conclusion
 
 * Since the p-value is 0.5185 > alpha(0.05), We fail to reject the null hypothesis H0.
 * So we came to the conclusion that there is no statistically significant difference between the two campaigns.
+
+## A/B TESTING WITH MACHINE LEARNING
+
+With A/B testing we compare between two, but with machine learning we can incorporate
+the complexity and dynamic nature of data and draw insights.
+
+Using k-fold cross validation we were able to train
+three different models and determine their
+accuracy in predicting our data.
+
+MEAN PERFORMANCE OF THE MODELS
+
+### Accuracy Scores
+
+* Desicion Tree: 0.464
+* Logistic Regression: 0.536
+* XGBoost: 0.536
+* Random Forest: 0.528
+#### Best Models
+* 1 - XGBoost
+* 2 - Logistic Regression
+* 3 - Random Forest
+
+
 
 
 

@@ -42,7 +42,9 @@ ml workflow
 
 
 ## Conclusion
-Accorfing to the classical A/B Test the ads that the advertising company runs did not result in a significant lift in brand awareness.
+
+* Since the p-value is 0.5185 > alpha(0.05), We fail to reject the null hypothesis H0.
+* So we came to the conclusion that there is no statistically significant difference between the two campaigns.
 
 
 
@@ -62,6 +64,7 @@ docker run abelblue/ad_image:1.0
 git clone https://github.com/Abel-Blue/smartAd-abTest
 cd telecom-user-analytics
 sudo python3 setup.py install
+```
 
 ## Contributirs
 

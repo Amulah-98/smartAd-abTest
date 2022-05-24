@@ -85,7 +85,7 @@ With Machine Learning, we discover that the other features like the hour of the 
 ## Installation
 
 ```bash
-git clone https://github.com/Abel-Blue/smartAd-abTest
+git clone https://github.com/nardoshood/smartAd-abTest
 cd smartAd-abTest
 sudo python3 setup.py install
 ```

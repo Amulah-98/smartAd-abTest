@@ -1,4 +1,4 @@
-Articles: [Medium Article](https://medium.com/@Abel-Blue/a-b-test-using-machine-learning-a6dfbbb2d016)
+<!-- Articles: [Medium Article](https://medium.com/@Abel-Blue/a-b-test-using-machine-learning-a6dfbbb2d016) -->
 
 ---
 # SmartAd Campaign - A/B Testing
@@ -69,6 +69,8 @@ accuracy score
 * 2 - Logistic Regression
 * 3 - Random Forest
 
+mlflow run
+![model](images/mlflow%20run.png)
 # Classical A/B test vs Machine learning
 
 With classical A/B testing, we determined if there was a significant lift in brand awareness which is instrumental to smartAd in making the next move.
@@ -90,8 +92,8 @@ sudo python3 setup.py install
 
 ---
 
-## Contributirs
+## contributors
 
-![Contributors list](https://contrib.rocks/image?repo=nardoshood/smartAd-abTest)
+![contributors list](https://contrib.rocks/image?repo=nardoshood/smartAd-abTest)
 
 Made with [contrib.rocks](https://contrib.rocks)

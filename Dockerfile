@@ -23,7 +23,7 @@ RUN adduser -u 5678 --disabled-password --gecos "" appuser && chown -R appuser /
 USER appuser
 
 # Used to set executables that will always run when the container is initiated
-ENTRYPOINT ["python", "run"]
+# ENTRYPOINT []
 
 # During debugging, this entry point will be overridden. For more information, please refer to https://aka.ms/vscode-docker-python-debug
-CMD ["train.py"]
+CMD ["mlflow ui"]
